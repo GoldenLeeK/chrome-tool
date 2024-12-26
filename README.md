@@ -23,7 +23,7 @@
 
 1. 下载源码
     ```bash
-    git clone https://github.com/yourusername/web-developer-toolbox.git
+    git clone https://github.com/GoldenLeeK/chrome-tool.git
     ```
     或直接下载 ZIP 文件并解压
 
