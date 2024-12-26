@@ -1,0 +1,23 @@
+{
+    "name": "工具箱",
+    "description": "JSON格式化、Base64转换、时间戳转换工具",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "contextMenus",
+        "storage",
+        "clipboardWrite",
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}
